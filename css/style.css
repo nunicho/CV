@@ -1,0 +1,202 @@
+.seccionOculta{
+    display:none;
+}
+.navbar {
+    background-color: #8785a2;
+}
+
+.navbarImg{
+    width: 10%;
+    margin: 0;
+}
+
+.seccionPrimera {
+    background-color: #a8d8ea;
+}
+
+.seccionFooter {
+    background-color: #8785a2;
+}
+
+h5 {
+    background-color: #8785a2;
+    color: white;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+
+.navbar-toggler{
+    display:none;
+}
+#itemsNav{
+    display:none;
+}
+
+
+    .navbar {
+        background-color: #8785a2;
+    }
+.seccionOculta{
+    display:none;
+}
+
+    .seccionPrimera {
+        background-color: #a8d8ea;
+    }
+
+    .seccionFooter {
+        background-color: #8785a2;
+    }
+
+    h5 {
+        background-color: #8785a2;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    p,
+    li {
+        font-size: small;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    ul {
+        margin: 0;
+        line-height: 25px;
+    }
+
+    .col-print-5 {
+        width: 40%;
+        float: left;
+    }
+
+    .col-print-7 {
+        width: 60%;
+        float: right;
+    }
+
+    .col-print-6 {
+        width: 50%;
+    }
+}
+
+
+
+@media screen and (max-width: 575.98px) {
+
+.seccionOculta{
+    display:flex;
+    justify-content: center;
+    background-color: #a8d8ea;
+    margin: 0;
+}
+.seccionImg{  
+    display:none;
+}
+.articuloGeneral{
+display: flex;
+}
+
+.seccionPrimera{
+    order: 2;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.seccionSegunda{
+    order: 1;
+    background-color: none;
+    padding:0;
+    margin: 0;
+}
+.seccionFormacion{
+    background-color: #a8d8ea;
+}
+
+.seccionReconocimientos{
+    background-color: white;
+    margin: 0;
+}
+.seccionAptitudes{
+    background-color:  #a8d8ea ;
+}
+
+.seccionOtrasAficiones{
+background-color:  #a8d8ea ;
+}
+
+h5{
+margin: 0;
+padding:0;
+}
+
+footer{
+    margin:0;
+}
+
+}
+    @media screen and (min-width: 575.99px) and (max-width: 767px){
+    .seccionOculta{
+        display:flex;
+        justify-content: center;
+        background-color: #a8d8ea;
+        margin: 0;
+    }
+    .seccionImg{  
+        display:none;
+    }
+    .articuloGeneral{
+    display: flex;
+    }
+    
+    .seccionPrimera{
+        order: 2;
+        background-color: white;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .seccionSegunda{
+        order: 1;
+        background-color: none;
+        padding:0;
+        margin: 0;
+    }
+    .seccionFormacion{
+        background-color: #a8d8ea;
+    }
+    
+    .seccionReconocimientos{
+        background-color: white;
+        margin: 0;
+    }
+    .seccionAptitudes{
+        background-color:  #a8d8ea ;
+    }
+    
+    .seccionOtrasAficiones{
+    background-color:  #a8d8ea ;
+    }
+    
+    h5{
+    margin: 0;
+    padding:0;
+    }
+
+    aside{
+        margin: 0;
+        padding:10px;
+    }
+    
+    footer{
+        margin:0;
+    }
+}
+
